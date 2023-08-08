@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/live', function () {
     return view('live');
 });
+Route::get('/table', function () {
+    return view('table');
+});
 
